@@ -1,0 +1,19 @@
+// hexoct2.cpp -- display values in hex and octal
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int chest = 42;
+	int waist = 42;
+	int inseam = 42;
+
+	cout << "Monsieur cuts a strinking figure!" << endl;
+	cout << "chest = " << chest << " (decimal for 42)" << endl;
+	cout << hex;     // manipulator for changing number base
+	cout << "waist = " << waist << " (hexdecimal for 42)" << endl;
+	cout << oct;     // manipulator for changing number base
+	cout << "inseam = " << inseam << " (octal for 42)" << endl;
+
+	return 0;
+}
